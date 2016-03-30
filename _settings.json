@@ -8,6 +8,12 @@
 
         "src": {
 
+            "css": "/_assets/css",
+            "css_include": [
+                "./bower_components/hcl-bootstrap/dist/css/**.*",
+                "./_assets/css/**.*"
+            ],
+
             "fonts": [
                 "./_assets/fonts/**.*",
                 "./bower_components/hcl-bootstrap/dist/fonts/**.*"
@@ -33,13 +39,7 @@
                 "./_assets/js/**.*"
             ],
 
-            "img": "./_assets/img",
-
-            "sass": "./_assets/sass",
-            "sass_include": [
-                "./_assets/sass",
-                "./bower_components/hcl-bootstrap/dist/css/**.*"
-            ]
+            "img": "./_assets/img"
 
         },
 
