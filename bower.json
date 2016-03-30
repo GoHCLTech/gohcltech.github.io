@@ -1,0 +1,22 @@
+{
+  "name": "gohcltech.github.io",
+  "homepage": "https://github.com/gohcltech/gohcltech.github.io",
+  "authors": [
+    "Kurt Wolf <kwolf@gohcl.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hcl-bootstrap": "http://gallogitlab01.hcl.internal/web/hcl-bootstrap.git"
+  }
+}
