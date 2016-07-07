@@ -24,6 +24,7 @@ plugins_dir:            ./_plugins
 safe:                   true
 include:                [".htaccess"]
 exclude:                [
+                            "bin",
                             "bower_components",
                             "node_modules",
                             "gulp-tasks",

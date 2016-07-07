@@ -11,7 +11,7 @@ var     gulp            = require('gulp'),
         settings        = require('./_settings.json');
 
 /* Import main tasks */
-//var     utils           = requireDir(settings.paths.tasks);
+var     utils           = requireDir(settings.paths.tasks);
 
 gulpAutoTask('{*,**/*}.js', {
     base: settings.paths.tasks,

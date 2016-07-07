@@ -8,9 +8,9 @@
 
         "src": {
 
-            "css": "/_assets/css",
+            "css": "/assets/css",
             "css_include": [
-                "./bower_components/hcl-bootstrap/dist/css/**.*",
+                "./bower_components/hcl-bootstrap/dist/css/hcl-theme.bootstrap.css",
                 "./_assets/css/**.*"
             ],
 
@@ -35,7 +35,7 @@
             "js": "./_assets/js",
             "js_include": [
                 "./bower_components/jquery/dist/jquery.js",
-                "./bower_components/hcl-bootstrap/dist/js/**.*",
+                "./bower_components/hcl-bootstrap/dist/js/hcl-theme.bootstrap.all.js",
                 "./_assets/js/**.*"
             ],
 

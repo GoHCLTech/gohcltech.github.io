@@ -1,5 +1,7 @@
 .sass-cache
+.bundle
 node_modules
 bower_components
 _site
 Gemfile.lock
+bin

@@ -9,24 +9,29 @@
 
     <div class="container">
 
-        {% if page.url == '/' %}
-            <div class="jumbotron">
-                <h1>
-                    {{ site.title }}
-                </h1>
-                <p>{{ site.description }}</p>
-            </div>
-        {% endif %}
-
         <div class="row">
             <div class="col-md-9">
                 <div class="panel panel-default" id="headings">
                     <div class="panel-body">
+                        <h1>{{ page.title }}</h1>
+                        <hr/>
                         {{ content }}
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
+                {% if page.author %}
+                    Author
+                    <h4>{{ page.author }}</h4>
+                {% endif %}
+
+                <br/>Publish Date
+                <h4>{{ page.date | date: "%b %-d, %Y" }}</h4>
+
+                {% for category in page.categories %}
+                <!-- <a href="/category/{{ category }}"  class="label label-default">{{ category }}</a> -->
+                    <span class="label label-default">{{ category }}</span>
+                {% endfor %}
             </div>
         </div>
     </div>
