@@ -3,20 +3,25 @@
         {% unless post.url == page.url %}
             <article>
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-12">
                         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                    </div>
-                    <div class="col-md-2">
-                        <h3><small class="text-muted pull-right"><time datetime="{{ post.date || date:'%Y-%m-%d' }}">{{ post.date | date: '%d %b %Y' }}</time></small></h3>
+                        <p class="text-muted">
+                            Posted on {{ post.date | date: "%b %-d, %Y" }}
+                            {% if post.author %}
+                                by {{ post.author }}
+                            {% endif %}
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <p>{{ post.excerpt }}</p>
+                        <p class="text-muted">
+                            Tagged:
+                            {% for category in post.categories %}
+                                <span class="label label-default">{{ category }}</span>
+                            {% endfor %}
+                        </p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12"><hr/></div>
                 </div>
             </article>
         {% endunless %}

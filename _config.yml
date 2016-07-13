@@ -3,7 +3,7 @@ url:                    http://tech.gohcl.com
 domain:                 tech.gohcl.com
 name:                   HCL Technology Services
 title:                  HCL Technology Services
-description:
+description:            Team blog for the Technology Services team at Health Care Logistics.
 
 author:                 Kurt Wolf
 email:                  kwolf@gohcl.com
@@ -57,7 +57,9 @@ gems:                   []
 # Build settings
 markdown:               kramdown
 # ighlighter:            rouge
-permalink:              /:year/:month/:title
+permalink:              /:year/:month/:title/
+#permalink:              pretty
+#post_dirs:              false
 paginate_path:          /page:num
 paginate:               10
 # timezone:               America/New_York
