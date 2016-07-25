@@ -61,7 +61,7 @@ permalink:              /:year/:month/:title/
 #permalink:              pretty
 #post_dirs:              false
 paginate_path:          /page:num
-paginate:               10
+paginate:               5
 # timezone:               America/New_York
 recent_post_limit:      5
 
