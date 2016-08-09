@@ -2,7 +2,9 @@
 title: Exchange 2010 - A restart from a previous installation is pending.
 layout: post
 category: ['exchange']
-author: Chris Cotton
+author: chris
+img: images/please-stand-by.jpg
+comments: true
 ---
 
 As I find myself building yet another system for myself I run into a familiar "friend."  I should know it’s coming. I’ve done this probably 4 times in the past year. The error is, "A restart from a previous installation is pending" from inside of the Exchange 2010 SP3 setup.

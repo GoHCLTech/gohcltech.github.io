@@ -1,0 +1,226 @@
+<a class="twitter-timeline" data-height="400" href="https://twitter.com/gohcltech">Tweets by gohcltech</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- Category Mac -->
+{% for post in site.categories.mac limit:1 %}
+<div class="side-bar-categories">
+	<ul class="media-list">
+		<h4 class="sidebar-cat-heading"><span>Mac</span></h4>
+    		{% if post.url %}
+  				<li class="media">
+            {% if post.img %}
+    				  <div class="media-left">
+                <div class="image-container">
+      					   <a href="{{ post.url }}">
+        				    <img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+      					   </a>
+    				    </div>
+              </div>
+              {% endif %}
+    				<div class="media-body media-middle">
+      					<a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+    				</div>
+  				</li>
+  			{% endif %}
+	</ul>
+</div>
+{% endfor %}
+
+<!-- Category Ubuntu -->
+{% for post in site.categories.ubuntu limit:1 %}
+<div class="side-bar-categories">
+    <ul class="media-list">
+        <h4 class="sidebar-cat-heading"><span>Ubuntu</span></h4>
+    		{% if post.url %}
+  				<li class="media">
+            {% if post.img %}
+    				<div class="media-left">
+              <div class="image-container">
+      					<a href="{{ post.url }}">
+        				<img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+      					</a>
+              </div>
+    				</div>
+            {% endif %}
+    				<div class="media-body media-middle">
+      					<a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+    				</div>
+  				</li>
+  			{% endif %}
+	</ul>
+</div>
+{% endfor %}
+
+<!-- Category Exchange -->
+{% for post in site.categories.exchange limit:1 %}
+<div class="side-bar-categories">
+	<ul class="media-list">
+    	<h4 class="sidebar-cat-heading"><span>Exchange</span></h4>
+    		{% if post.url %}
+  				<li class="media">
+            {% if post.img %}
+    				<div class="media-left">
+              <div class="image-container">
+      					<a href="{{ post.url }}">
+        				<img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+      					</a>
+              </div>
+    				</div>
+            {% endif %}
+    				<div class="media-body media-middle">
+      				<a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+    				</div>
+  				</li>
+  			{% endif %}
+	</ul>
+</div>
+{% endfor %}
+
+<!-- Category Shoretel -->
+{% for post in site.categories.shoretel limit:1 %}
+<div class="side-bar-categories">
+	<ul class="media-list">
+    	<h4 class="sidebar-cat-heading"><span>Shoretel</span></h4>
+    		{% if post.url %}
+  				<li class="media">
+            {% if post.img %}
+    				<div class="media-left">
+              <div class="image-container">
+      					<a href="{{ post.url }}">
+        				<img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+      					</a>
+              </div>
+    				</div>
+            {% endif %}
+    				<div class="media-body media-middle">
+      					<a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+    				</div>
+  				</li>
+  			{% endif %}
+	</ul>
+</div>
+{% endfor %}
+
+<!-- Category Windows -->
+{% for post in site.categories.windows limit:1 %}
+<div class="side-bar-categories">
+	<ul class="media-list">
+    	<h4 class="sidebar-cat-heading"><span>Windows</span></h4>
+    		{% if post.url %}
+  				<li class="media">
+            {% if post.img %}
+    				<div class="media-left">
+              <div class="image-container">
+      					<a href="{{ post.url }}">
+        				<img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+      					</a>
+              </div>
+    				</div>
+            {% endif %}
+    				<div class="media-body media-middle">
+      					<a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+    				</div>
+  				</li>
+  			{% endif %}
+	</ul>
+</div>
+{% endfor %}
+
+<!-- Category Nimble -->
+{% for post in site.categories.nimble limit:1 %}
+<div class="side-bar-categories">
+  <ul class="media-list">
+      <h4 class="sidebar-cat-heading"><span>Nimble</span></h4>
+        {% if post.url %}
+          <li class="media">
+            {% if post.img %}
+            <div class="media-left">
+              <div class="image-container">
+                <a href="{{ post.url }}">
+                <img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+                </a>
+              </div>
+            </div>
+            {% endif %}
+            <div class="media-body media-middle">
+                <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+            </div>
+          </li>
+        {% endif %}
+  </ul>
+</div>
+{% endfor %}
+
+<!-- Category Development -->
+{% for post in site.categories.development limit:1 %}
+<div class="side-bar-categories">
+  <ul class="media-list">
+      <h4 class="sidebar-cat-heading"><span>Development</span></h4>
+        {% if post.url %}
+          <li class="media">
+            {% if post.img %}
+            <div class="media-left">
+              <div class="image-container">
+                <a href="{{ post.url }}">
+                <img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+                </a>
+              </div>
+            </div>
+            {% endif %}
+            <div class="media-body media-middle">
+                <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+            </div>
+          </li>
+        {% endif %}
+  </ul>
+</div>
+{% endfor %}
+
+<!-- Category isci -->
+{% for post in site.categories.iscsi limit:1 %}
+<div class="side-bar-categories">
+  <ul class="media-list">
+      <h4 class="sidebar-cat-heading"><span>iscsi</span></h4>
+        {% if post.url %}
+          <li class="media">
+            {% if post.img %}
+            <div class="media-left">
+              <div class="image-container">
+                <a href="{{ post.url }}">
+                <img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+                </a>
+              </div>
+            </div>
+            {% endif %}
+            <div class="media-body media-middle">
+                <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+            </div>
+          </li>
+        {% endif %}
+  </ul>
+</div>
+{% endfor %}
+
+<!-- Category Lync -->
+{% for post in site.categories.lync limit:1 %}
+<div class="side-bar-categories">
+  <ul class="media-list">
+      <h4 class="sidebar-cat-heading"><span>Lync</span></h4>
+        {% if post.url %}
+          <li class="media">
+            {% if post.img %}
+            <div class="media-left">
+              <div class="image-container">
+                <a href="{{ post.url }}">
+                <img class="media-object" src="{{site.baseurl}}/{{ post.img }}" alt="...">
+                </a>
+              </div>
+            </div>
+            {% endif %}
+            <div class="media-body media-middle">
+                <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+            </div>
+          </li>
+        {% endif %}
+  </ul>
+</div>
+{% endfor %}

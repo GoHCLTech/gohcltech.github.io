@@ -2,7 +2,9 @@
 title: Shoretel Communicator & Lync 2013
 layout: post
 category: ['shoretel']
-author: Scott Harkless
+author: scott
+img: images/crashed.jpg
+comments: true
 ---
 
 We were having issues with Lync 2013 crashing on start up after Shoretel Communicator was installed. Finally a fix that worked for us!!

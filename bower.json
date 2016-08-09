@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "hcl-bootstrap": "http://gallogitlab01.hcl.internal/web/hcl-bootstrap.git"
+    "hcl-bootstrap": "http://gallogitlab01.hcl.internal/web/hcl-bootstrap.git",
+    "masonry": "^4.1.0"
   }
 }

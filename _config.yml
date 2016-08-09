@@ -67,3 +67,17 @@ recent_post_limit:      5
 
 # quiet:                  false
 # defaults:               []
+# Author details.
+authors:
+    kurt:
+        display_name:   Kurt Wolf
+        gravatar:       f7da544e8b6a35e9a64e7c2ec7ae2f76
+    scott:
+        display_name:   Scott Harkless
+        gravatar:       96b9232f09d1d06f4cac24e7ee603ee5
+    chris:
+        display_name:   Chris Cotton
+        gravatar:       e3748e098a85aa748c3d980c782dfe48
+    joey:
+        display_name:   Joey Langley
+        gravatar:       0517973a7836bf2c0193394db72ae58c

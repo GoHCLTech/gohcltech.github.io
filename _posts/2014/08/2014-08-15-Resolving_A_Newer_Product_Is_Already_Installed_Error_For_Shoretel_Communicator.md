@@ -2,7 +2,9 @@
 title: Resolving "A newer product is already installed" error for Shoretel Communicator
 layout: post
 category: ['shoretel']
-author: Chris Cotton
+author: chris
+img: images/solved.jpg
+comments: true
 ---
 
 It seems as though most of the times we have a Shoretel Communicator update we end up seeing the following error:

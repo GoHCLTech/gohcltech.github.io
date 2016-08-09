@@ -2,7 +2,8 @@
 title: Service Manager 2012 Console Performance
 layout: post
 category: ['scsm', 'lync']
-author: Kurt Wolf
+author: kurt
+comments: true
 ---
 
 The TS department made a switch to Service Manager a few weeks ago and some of us have been less than impressed with the performance of the console. The application would hang for an incredible amount of time when opening a form. In some cases, when opening a form it would hang the application so badly that a reboot was in order. The one symptom that was interesting was that the Lync 2013 window always seemed to pop up when this occurred.

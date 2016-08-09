@@ -2,7 +2,9 @@
 title: Ubuntu iSCSI MIPO with Nimble
 layout: post
 category: ['ubuntu', 'nimble']
-author: Kurt Wolf
+author: kurt
+img: images/data-storage.gif
+comments:   true
 ---
 
 With the implementation of a new Nimble Storage Array, HCL is changing the storage strategy away from fiber channel to iSCSI. If you have not looked at a Nimble array, you really should. Fantastic!

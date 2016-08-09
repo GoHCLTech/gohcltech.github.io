@@ -1,6 +1,6 @@
 var     gulp            = require('gulp'),
         gutil           = require('gulp-util'),
-        exec              = require('child_process').exec
+        exec            = require('child_process').exec
         settings        = require('../_settings.json');
 
 module.exports = function buildJekyll(callback, env) {

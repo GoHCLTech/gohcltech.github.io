@@ -2,7 +2,9 @@
 title: Ubuntu OCFS2 Cluster
 layout: post
 category: ['ubuntu']
-author: Kurt Wolf
+author: kurt
+img: images/ubuntu-logo.jpg
+comments:  true
 ---
 
 In the last article, we configured a server to communicate with an iSCSI target on a Nimble Array. We now need to format that volume with a file system. Our ultimate goal will be that the volume can be shared with multiple Linux systems.

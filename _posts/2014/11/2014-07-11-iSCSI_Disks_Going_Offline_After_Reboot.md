@@ -2,7 +2,9 @@
 title: iSCSI Disks Going Offline After Reboot
 layout: post
 category: ['iscsi', 'windows']
-author: Scott Harkless
+author: scott
+img: images/windows-logo.jpg
+comments: true
 ---
 
 We were having issues when we would reboot a server that was connected to our iSCSI SAN the drives would show offline.  After a lot of searching i came across this article on [Dell’s site](http://www.dell.com/support/troubleshooting/bb/en/bbdhs1/KCS/KcsArticles/ArticleIframeView?docid=600688&doclang=EN#Issue5).  This fix worked on our Windows 2012 servers as well.

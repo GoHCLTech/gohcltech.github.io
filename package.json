@@ -24,5 +24,10 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.5",
     "gulp-util": "~3.0.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-finish": "^0.1.2",
+    "run-sequence": "^1.2.2"
   }
 }
